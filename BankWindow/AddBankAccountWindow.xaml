@@ -1,0 +1,16 @@
+﻿<Window x:Class="BankWindow.AddBankAccountWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BankWindow"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Title="Добавление счёта в банке" Height="392.602" Width="688.648">
+    <Grid Background="#FF6BC1B8">
+        <ComboBox Name="accountBox" HorizontalAlignment="Left" Margin="54,151,0,0" VerticalAlignment="Top" Width="456" Height="30" Background="#FF6BC1B8" FontFamily="Arial Black" FontSize="16"/>
+        <Label Content="Выберите банк, в котором хотите открыть счёт" HorizontalAlignment="Left" Margin="54,77,0,0" VerticalAlignment="Top" Width="456" Background="#FF6BC1B8" FontFamily="Arial Black" FontSize="16" FontWeight="Bold"/>
+        <Button Content="Ок" HorizontalAlignment="Left" Margin="571,304,0,0" VerticalAlignment="Top" Width="98" Height="48" Click="Ok" BorderBrush="Black" Background="#FF6BC1B8" FontFamily="Arial Black" FontSize="16" FontWeight="Bold"/>
+    </Grid>
+</Window>

@@ -1,0 +1,54 @@
+## Игнорировать файлы сборки и бинарные файлы ##
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.suo
+*.cache
+*.ilk
+*.nupkg
+
+## Файлы пользовательских настроек IDE ##
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+## Файлы Resharper ##
+*.rsuser
+*_ReSharper*
+*.DotSettings.user
+
+## Временные файлы ##
+*.tmp
+*.temp
+*.log
+*.vspscc
+*.vssscc
+build/
+[Tt]humbs.db
+
+## Файлы пакетов NuGet ##
+packages/
+*.nupkg
+.nuget/
+NuGet.exe
+NuGet.Config
+
+## Файлы тестовых покрытий ##
+*.coverage
+*.coveragexml
+
+## Файлы MSBuild ##
+*.msi
+*.msp
+*.msm
+
+## Файлы авто-генерации ##
+_ReSharper.*
+*.autosave
+
+## Исключения для системных файлов ##
+!.gitattributes
+!.gitignore

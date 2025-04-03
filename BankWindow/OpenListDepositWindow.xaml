@@ -1,0 +1,14 @@
+﻿<Window x:Class="BankWindow.OpenListDepositWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BankWindow"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Title="Список вкладов для данного счёта" Height="450" Width="859.062">
+    <Grid Background="#FF6BC1B8">
+        <ListBox Name="depositsBox" HorizontalAlignment="Left" Height="401" Margin="10,10,0,0" VerticalAlignment="Top" Width="833" BorderBrush="Black" Background="#FF6BC1B8" FontFamily="Arial Black" FontWeight="Bold" FontSize="16"/>
+    </Grid>
+</Window>
